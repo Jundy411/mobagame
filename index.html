@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Moba Game</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h3>Moba<span>litic</span></h3>
+        </div>
+        <ul>
+            <li>
+                <a href="#" class="nav-a color">Home</a>
+            </li>
+            <li>
+                <a href="#" class="nav-a">Champion</a>
+            </li>
+            <li>
+                <a href="#" class="nav-a">Blog</a>
+            </li>
+            <li>
+                <a href="#" class="nav-a">Achievement</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <div class="content">
+            <div class="title">
+                <p>select your game</p>
+            </div>
+            <div class="select-image">
+                <div>
+                    <img src="./img/itemAoV.jpg" alt="Aov" class="image active" onclick="openPage('aov',this)" id="defaultOpen">
+                </div>
+                <div>
+                    <img src="./img/itemDota.jpg" alt="Dota" class="image" onclick="openPage('dota',this)">
+                </div>
+                <div>
+                    <img src="./img/itemLoL.jpg" alt="Lol" class="image" onclick="openPage('lol',this)">
+                </div>
+                <div>
+                    <img src="./img/itemML.jpg" alt="ML" class="image" onclick="openPage('ml',this)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="aov" class="header">
+        <div class="text">
+            <h2>
+                get better<br>at teamfight<br>tactics
+            </h2>
+            <p>Mobalytics is your personal gaming assistants<br>that will help you master your play
+            </p>
+            <button>Explore</button>
+        </div>
+    </div>
+    <div id="dota" class="header">
+        <div class="text">
+            <h2 style="color: #d80000;">
+                get better<br>at teamfight<br>tactics
+            </h2>
+            <p>Mobalytics is your personal gaming assistants<br>that will help you master your play
+            </p>
+            <button style="background-color: #d80000;">Explore</button>
+        </div>
+    </div>
+    <div id="lol" class="header">
+        <div class="text">
+            <h2 style="color:#481bf0">
+                get better<br>at teamfight<br>tactics
+            </h2>
+            <p>Mobalytics is your personal gaming assistants<br>that will help you master your play
+            </p>
+            <button style="background-color: #481bf0;">Explore</button>
+        </div>
+    </div>
+    <div id="ml" class="header">
+        <div class="text">
+            <h2 style="color:white">
+                get better<br>at teamfight<br>tactics
+            </h2>
+            <p>Mobalytics is your personal gaming assistants<br>that will help you master your play
+            </p>
+            <button style="background-color: #4afffc;">Explore</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

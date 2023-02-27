@@ -1,0 +1,148 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:0px 5rem;
+    font-family: 'bebas';
+    min-height:15vh;
+    width: 100%;
+    position:absolute;
+    background-color:rgba(0, 0,0, 0.5);
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    list-style:none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left:50px;
+    font-size:large;
+    text-transform: uppercase;
+    color: black;
+    color: white;
+}
+.logo{
+    cursor:pointer;
+}
+.logo h3{
+    color: white;
+    font-size:2rem;
+    font-weight: bold;
+}
+.logo span{
+    font-weight:normal;
+}
+.color{
+    color: orange;
+}
+
+
+/* sidebar */
+section{
+    background-color:none;
+    width: 20%;
+    height:85vh;
+    position: absolute;
+    top: 15vh;
+    z-index: 99;
+}
+.content{
+    padding-left:80px;
+    padding-top:20px;
+}
+.title{
+    text-align: left;
+    font-family: 'arial';
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.select-image{
+    position: relative;
+    left:-45px;
+}
+img{
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    border:1px solid transparent;
+    transition: .3s ease;
+    margin-bottom:10px;
+}
+
+.active{
+    transform: translateX(15px);
+}
+
+/* header */
+
+.header{
+    display: none;
+    height: 100vh;
+}
+.header .text{
+    text-align:right;
+    position: relative;
+    top:30%;
+    padding-right:100px;
+    font-family: 'montserrat',sans-serif;
+}
+.header .text h2{
+    text-transform: uppercase;
+    
+    color: orange;
+    font-size:2.5rem;
+}
+.header .text p{
+    color: white;
+    margin:25px 0px;
+}
+.header .text button{
+    padding:15px 40px;
+    border:none;
+    background-color: orange;
+    color: white;
+    font-size: 1rem;
+    border-radius:2px;
+    cursor:pointer;
+}
+
+#aov{
+    background-image:url("./img/BackgroundAoV.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dota{
+    background-image:url("./img/BackgroundDota.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#lol{
+    background-image:url("./img/BackgroundLoL.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ml{
+    background-image:url("./img/BackgroundML.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
